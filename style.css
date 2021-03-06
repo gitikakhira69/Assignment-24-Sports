@@ -1,0 +1,52 @@
+.header{
+    padding: 20px;
+    height: 600px;
+    background: url(virat\ kohli1.jpg);
+    position: relative;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+ul li{
+    list-style: none;
+    
+}
+ul li a{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:black;
+    letter-spacing: 2px;
+    padding: 10px ;
+}
+ul li a:hover{
+    border-bottom: 3px solid burlywood;
+}
+.title{
+    text-transform:initial;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    
+}
+.bio1{
+    background:linear-gradient(#22abe6,#2284e6,#222ce6);
+}
+.bio2{
+    background:linear-gradient(#e622ae,#a822e6,#5a22e6)
+}
+.achieve{
+    background:linear-gradient(#222ce6,#22abe6,#2284e6);
+}
+h2 a{
+    color:#fcb103;
+}
+div{
+    color: whitesmoke;
+}
