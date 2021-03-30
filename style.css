@@ -7,6 +7,14 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border: yellowgreen;
+    border-style: ridge;
+}
+.bio:hover{
+    transform:scale(1.1,1.1);
+}
+.achieve:hover{
+    transform:scale(1.1,1.1);
 }
 ul{
     display: flex;
@@ -26,27 +34,72 @@ ul li a{
 }
 ul li a:hover{
     border-bottom: 3px solid burlywood;
+    background: linear-gradient( 
+        to right,#d169fa,#f07171, #e911a1
+        ); 
+    -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
 }
 .title{
     text-transform:initial;
-    color: whitesmoke;
     display: flex;
     justify-content: center;
     align-content:center ;
-    
+    background: linear-gradient( 
+        to right,#ebfa69,#f07171, #e9da11
+        ); 
+    -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
 }
 .bio1{
-    background:linear-gradient(#22abe6,#2284e6,#222ce6);
+    background:linear-gradient(#88c592,#08e926);
+    border: rgb(2, 2, 2);
+    border-style:dotted ;
 }
 .bio2{
-    background:linear-gradient(#e622ae,#a822e6,#5a22e6)
+    background:conic-gradient(#e622ae,#a822e6,#5a22e6);
+    border: black;
+    border-style: dotted;
 }
 .achieve{
-    background:linear-gradient(#222ce6,#22abe6,#2284e6);
+    background:radial-gradient(#88c592,#08e926,#0e471a);
+    border: black;
+    border-style: dotted;
 }
 h2 a{
-    color:#fcb103;
+    background: linear-gradient( 
+            to left,#d80a0a, 
+            #e26374); 
+    -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
 }
 div{
-    color: whitesmoke;
+    color: rgba(245, 245, 245, 0.712);
+    text-align:left;
+}
+ .name{
+   
+   position: relative;
+   top: 400px;
+}
+#vi{
+    background: linear-gradient( 
+            to bottom right,#4a192b, #a12d8d, 
+            #e88bd8); 
+    -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
+}
+p{
+    background: linear-gradient( 
+            to right,#060c58, 
+            #3656be); 
+    -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
+}
+li{
+    background: linear-gradient( 
+            to right,#060c58, 
+            #3656be); 
+    -webkit-text-fill-color: transparent; 
+      -webkit-background-clip: text;
 }
